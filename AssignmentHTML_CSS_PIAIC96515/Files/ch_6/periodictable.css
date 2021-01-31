@@ -1,0 +1,344 @@
+.grid-container01 {
+  display: grid;
+  height: 75px;
+  margin-bottom: 80px;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container01 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.row1 {
+  display: flex;
+  text-align: center;
+}
+
+.row2 {
+  display: flex;
+  text-align: center;
+}
+
+.row3 {
+  display: flex;
+  text-align: center;
+}
+
+.row4 {
+  display: flex;
+  text-align: center;
+}
+
+.row5 {
+  display: flex;
+  text-align: center;
+}
+
+.row6 {
+  display: flex;
+  text-align: center;
+}
+
+.groupb {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  /* border: 1px solid rgb(10, 10, 10); */
+  margin: 2px;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: white;
+}
+
+.group:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid red;
+  margin: 2px;
+  font-size: 30px;
+  background-color: white;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #ff9966;
+}
+.group1:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #ff9966;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #dda0dd;
+}
+.group2:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #dda0dd;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #90c7ff;
+}
+.group3:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #90c7ff;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #fceff0;
+}
+.group4:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #fceff0;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #fff28e;
+}
+.group5:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #fff28e;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group6 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #cdeb8b;
+}
+.group6:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #cdeb8b;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group7 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #c79810;
+}
+.group7:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #c79810;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group8 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #ff9966;
+}
+.group8:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #ff9966;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group9 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #ebdca9;
+}
+.group9:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #ebdca9;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group10 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #e6e6fa;
+}
+.group10:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #e6e6fa;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.group_width {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 87.6%;
+  border: 1px solid red;
+  margin: 2px;
+}
+
+.group_width2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 54.6%;
+  border: 1px solid red;
+  margin: 2px;
+}
+
+sup {
+  font-size: 16px;
+}
